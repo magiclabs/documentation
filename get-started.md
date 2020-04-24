@@ -113,6 +113,10 @@ Did you know you can actually customize the login experience \(using your own UI
 
 {% page-ref page="tutorials/customization.md" %}
 
+Learn about how to use the popular [**Next.js**](https://nextjs.org/) framework to build a React app and deploy it with [**Vercel**](https://vercel.com/)!
+
+{% page-ref page="tutorials/next-js-integration.md" %}
+
 Magic provides much flexibility and composability to be combined with many other powerful platforms such as Firebase. You can learn how to plug Magic into the entire Firebase suite of tools here!
 
 {% page-ref page="tutorials/firebase-integration.md" %}
