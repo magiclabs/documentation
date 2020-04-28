@@ -32,6 +32,8 @@ const { Magic } = require('magic-sdk/react-native');
 {% endtab %}
 {% endtabs %}
 
+Next, make sure you read through the React Native [**🚀 Get Started**](get-started.md) section.
+
 ### Looking for a server-side API? Start with one of these:
 
 {% page-ref page="../../admin-sdk/node-js/" %}
