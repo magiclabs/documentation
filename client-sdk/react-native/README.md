@@ -10,8 +10,6 @@ The Magic **React Native** JavaScript SDK is distributed **from the same NPM pac
 Magic can support both server-based or serverless web applications. It is up to the developers to implement the [Admin SDK](../../admin-sdk/node-js/) to validate the DID Token.
 {% endhint %}
 
-Next, make sure you read through the React Native [**🚀 Get Started**](get-started.md) section.
-
 ### Looking for a server-side API? Start with one of these:
 
 {% page-ref page="../../admin-sdk/node-js/" %}
