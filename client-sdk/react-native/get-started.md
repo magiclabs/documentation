@@ -48,33 +48,11 @@ const m = new Magic('API_KEY'); // ✨
 Examples for the React Native JavaScript SDK use the ES Module/TypeScript pattern by default.
 {% endhint %}
 
-## 📥 Importing Magic for React Native
-
-The React Native SDK **has access to all the same methods and properties from Browser JS**, with one notable difference—the **`import`**! React Native-compatible code is namespaced like so:
-
-{% tabs %}
-{% tab title="ES Modules/TypeScript" %}
-```typescript
-import { Magic } from 'magic-sdk/react-native';
-                              /* ^^^^^^^^^^^^ */
-                            /* Notice this part! */
-```
-{% endtab %}
-
-{% tab title="CommonJS" %}
-```typescript
-const { Magic } = require('magic-sdk/react-native');
-                                  /* ^^^^^^^^^^^^ */
-                                /* Notice this part! */
-```
-{% endtab %}
-{% endtabs %}
-
 ## 🖼 Rendering Magic
 
-React Native exposes one additional member on your Magic instance: `Relayer`.
+To facilitate events between the Magic `<iframe>` context and your React Native application, a React component is exposed on your Magic instance: `<Relayer>`.
 
-`Relayer` is a React component that manages all communication with the Magic service. This is analogous to the `<iframe>` in Browser JS.
+**`<Relayer>` must be rendered into your application before Magic methods will resolve.**
 
 ```typescript
 function App() {
