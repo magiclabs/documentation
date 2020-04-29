@@ -7,8 +7,7 @@
 
 ## Advanced
 
-* Integration with WebAuthn
+* Integration with WebAuthn / FIDO
 * Integration with IPFS
-* Integration with Zeit & Next.js
 * Integration with Netlify
 
