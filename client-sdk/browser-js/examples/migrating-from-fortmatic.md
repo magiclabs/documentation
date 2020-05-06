@@ -8,7 +8,7 @@ Developers should plan to migrate existing `Fortmatic.Phantom` implementations t
 
 * ​[Install client-side JavaScript SDK​](../get-started.md#installation)
 
-## Updating Imports
+## Imports
 
 {% tabs %}
 {% tab title="Fortmatic" %}
