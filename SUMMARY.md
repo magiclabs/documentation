@@ -33,6 +33,7 @@
     * [Errors & Warnings](client-sdk/browser-js/sdk/errors-and-warnings.md)
   * [🧩 Examples](client-sdk/browser-js/examples/README.md)
     * [Re-authenticate Users](client-sdk/browser-js/examples/re-authenticate-users.md)
+    * [Migrating From Fortmatic](client-sdk/browser-js/examples/migrating-from-fortmatic.md)
 * [📱 React Native](client-sdk/react-native/README.md)
   * [🚀 Get Started](client-sdk/react-native/get-started.md)
 * [🔜 Coming Soon](client-sdk/coming-soon.md)
