@@ -30,7 +30,7 @@ const mAdmin = new Magic('SECRET_API_KEY');
 // to `req.authorization`
 const DIDToken = // ...
 
-// logs the user out of all valid browser sessions.
+// Retrieves user information by DID token
 const metadata = await mAdmin.users.getMetadataByToken(DIDToken);
 ```
 

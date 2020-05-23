@@ -91,4 +91,9 @@
   * [💸 Send Transaction](advanced/ethereum/send-transaction.md)
   * [✏️ Sign Message](advanced/ethereum/sign-message.md)
   * [📜 Smart Contract](advanced/ethereum/smart-contract.md)
+* [⛓ Tezos](advanced/tezos/README.md)
+  * [🚀 Get Started](advanced/tezos/get-started.md)
+  * [👤 Get User Info](advanced/tezos/get-user-info.md)
+  * [💸 Send Transaction](advanced/tezos/send-transaction.md)
+  * [📜 Smart Contract](advanced/tezos/smart-contract.md)
 
