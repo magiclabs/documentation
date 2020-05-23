@@ -8,7 +8,7 @@ Using getAccount function to get tezos public address for current user.
 {% tab title="ES Modules/TypeScript" %}
 ```typescript
 import { Magic } from 'magic-sdk';
-import { TezosExtension } from '@magic-sdk/extension-tezos';
+import { TezosExtension } from '@magic-ext/tezos';
  
 const magic = new Magic('YOUR_API_KEY', {
     extensions: [

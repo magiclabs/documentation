@@ -2,20 +2,20 @@
 
 ## 📦 Installation
 
-To interact with the Tezos blockchain, you can use **@magic-sdk/extension-tezos** with Magic.
+To interact with the Tezos blockchain, you can use **@magic-ext/tezos** with Magic.
 
-For more information, you can check [@magic-sdk/extension-tezos](https://www.npmjs.com/package/@magic-sdk/extension-tezos) npm package and [conseiljs](https://cryptonomic.github.io/ConseilJS/#/) official documentation.
+For more information, you can check [@magic-ext/tezos](https://www.npmjs.com/package/@magic-ext/tezos) npm package and [conseiljs](https://cryptonomic.github.io/ConseilJS/#/) official documentation.
 
 {% tabs %}
 {% tab title="NPM" %}
 ```bash
-npm install --save @magic-sdk/extension-tezos
+npm install --save @magic-ext/tezos
 ```
 {% endtab %}
 
 {% tab title="Yarn" %}
 ```
-yarn add @magic-sdk/extension-tezos
+yarn add @magic-ext/tezos
 ```
 {% endtab %}
 {% endtabs %}
@@ -26,7 +26,7 @@ yarn add @magic-sdk/extension-tezos
 {% tab title="ES Modules/TypeScript" %}
 ```typescript
 import { Magic } from 'magic-sdk';
-import { TezosExtension } from '@magic-sdk/extension-tezos';
+import { TezosExtension } from '@magic-ext/tezos';
  
 const magic = new Magic('YOUR_API_KEY', {
     extensions: [
