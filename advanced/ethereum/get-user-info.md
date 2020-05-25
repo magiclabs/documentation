@@ -18,7 +18,7 @@ const address = await signer.getAddress();
 
 // Get user's balance in ether
 const balance = ethers.utils.formatEther(
-  await provider.getBalance(userAddress) // Balance is in wei
+  await provider.getBalance(address) // Balance is in wei
 );
 ```
 
