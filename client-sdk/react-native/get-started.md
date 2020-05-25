@@ -57,10 +57,10 @@ To facilitate events between the Magic `<iframe>` context and your React Native 
 ```typescript
 function App() {
   return (
-    <div>
+    <View>
       {/* Remember to render the `Relayer` component into your app! */}
       <m.Relayer />
-    </div>
+    </View>
   );
 }
 ```
