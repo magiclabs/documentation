@@ -2,7 +2,7 @@
 
 ## 📦 Installation
 
-To interact with the Ethereum blockchain, you can use _either_ `ethers.js` or `web3.js` libraries with Magic.
+To interact with the Ethereum blockchain, you can use _either_ [`ethers.js`](https://docs.ethers.io/ethers.js/html/getting-started.html) or [`web3.js`](https://web3js.readthedocs.io/en/v1.2.8/getting-started.html) libraries with Magic.
 
 {% hint style="info" %}
 If you are already familiar with Ethereum application development, you can skip straight to our kitchen sink examples:
