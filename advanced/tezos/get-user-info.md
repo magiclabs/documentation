@@ -18,7 +18,7 @@ const magic = new Magic('YOUR_API_KEY', {
   ]
 });
 
-// get user's tezose public address
+// Get user's tezose public address
 const publicAddress = await magic.tezos.getAccount();
 console.log('Tezos Public Address: ', publicAddress);
 ```

@@ -56,6 +56,8 @@
       * [getMetadataByIssuer](admin-sdk/node-js/sdk/users-module/getmetadatabyissuer.md)
       * [getMetadataByPublicAddress](admin-sdk/node-js/sdk/users-module/getmetadatabypublicaddress.md)
       * [getMetadataByToken](admin-sdk/node-js/sdk/users-module/getmetadatabytoken.md)
+    * [Utils Module](admin-sdk/node-js/sdk/utils-module/README.md)
+      * [parseAuthorizationHeader](admin-sdk/node-js/sdk/utils-module/parseauthorizationheader.md)
     * [Errors & Warnings](admin-sdk/node-js/sdk/errors-and-warnings.md)
   * [🧩 Examples](admin-sdk/node-js/examples/README.md)
     * [Log Out a User's Magic Session](admin-sdk/node-js/examples/log-out-a-users-magic-session.md)
