@@ -50,7 +50,7 @@ Eric Elliott wrote a great [article](https://medium.com/javascript-scene/improvi
 
 #### Managing passwords increases cost and liability
 
-81% of all breaches are due to passwords, and 59% of people reuse their passwords _everywhere_ \[[Source](https://www.tracesecurity.com/blog/articles/81-of-company-data-breaches-due-to-poor-passwords)\], and breaches are costing companies on average $240k per 1k records \[[Source](https://digitalguardian.com/blog/whats-cost-data-breach-2019)\].
+81% of all breaches are due to passwords, and 59% of people reuse their passwords _everywhere_ \[[Source](https://enterprise.verizon.com/resources/reports/2017_dbir.pdf)\], and breaches are costing companies on average $240k per 1k records \[[Source](https://digitalguardian.com/blog/whats-cost-data-breach-2019)\].
 
 Over 50% of all support tickets are password-related \(usually forgotten passwords\). Each ticket costs companies around $70 - handling 10 tickets daily will cost an organization close to $128k annually \[[Source](https://www.okta.com/blog/2019/08/how-much-are-password-resets-costing-your-company/)\].
 
