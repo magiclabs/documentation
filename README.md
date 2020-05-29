@@ -30,7 +30,7 @@ _Currently Magic only supports web-based application, and coming very soon to mo
 
 ### 💪 Upgrade Security
 
-Properly managing user credentials, passwords, secrets, or sessions require tremendous amount of resources. Poor passwords actually account for 81% of all security breaches, since over 59% of people reuse their passwords _everywhere_ \[[Source](https://www.tracesecurity.com/blog/articles/81-of-company-data-breaches-due-to-poor-passwords)\]. This will cost companies up to $240,000 for every 1,000 records compromised \[[Source](https://digitalguardian.com/blog/whats-cost-data-breach-2019)\] - increasing risk and liability for your company. 
+Properly managing user credentials, passwords, secrets, or sessions require tremendous amount of resources. Poor passwords actually account for 81% of all security breaches, since over 59% of people reuse their passwords _everywhere_ \[[Source](https://enterprise.verizon.com/resources/reports/2017_dbir.pdf)\]. This will cost companies up to $240,000 for every 1,000 records compromised \[[Source](https://digitalguardian.com/blog/whats-cost-data-breach-2019)\] - increasing risk and liability for your company. 
 
 Type your email in [HaveIBeenPwned](https://haveibeenpwned.com/) and realize that your sensitive data and passwords have likely been compromised in many high profile breaches impacting companies like Equifax, Dropbox, Adobe, Kickstarter, LinkedIn, Tumblr, and so many more.
 
