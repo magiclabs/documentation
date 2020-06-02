@@ -4,15 +4,13 @@
 
 ### Getting Test XTZ
 
-Before you can send transaction on the Tezos blockchain, you'll need to acquire some test XTZ \(Tezos' native cryptocurrency\). You can follow the steps here using the [**Tezos Faucet**](https://faucet.tzalpha.net/).
+Before you can send transaction on the Tezos blockchain, you'll need to acquire some test XTZ \(Tezos' native cryptocurrency for test network\).
 
-1. Go to  [Tezos Faucet](https://faucet.tzalpha.net/), click the **"Get Testnet ꜩ"** button
-2. Copy the generated account JSON
-3. Paste your account JSON to [Tezos Faucet Importer](https://smartpy.io/dev/faucet.html), follow the instruction to initialize the account.
-4. Copy your pkh \(public key hash\) from account Json,  private key from step 3 and public key from the result of step 7 from the Tezos Faucet Importer.
-5. Go to [conseiljs transfer value](https://cryptonomic.github.io/ConseilJS/#/?id=transfer-value), follow the document to create your account's key store by the value from previous step.
-6. Transfer XTZ to your Magic Tezos account address \(Tezos public address from Get User Info section\).
-7. You're good to go!
+1. Go to our [**Tezos Faucet**](https://go.magic.link/tezos-test-faucet)\*\*\*\*
+2. Type in your email and click the **"Sign Up / Login"** button
+3. Go to your email and click on the magic link to login
+4. Once you are logged in, you will get **10 test XTZ**
+5. Now you can use your test XTZ in our [**example app**](https://go.magic.link/example-tezos)\*\*\*\*
 
 ### Call Extension Method
 

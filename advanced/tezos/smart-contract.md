@@ -2,6 +2,18 @@
 
 ## Deploy Contract
 
+### Getting Test XTZ
+
+Before you can send transaction on the Tezos blockchain, you'll need to acquire some test XTZ \(Tezos' native cryptocurrency for test network\).
+
+1. Go to our [**Tezos Faucet**](https://go.magic.link/tezos-test-faucet)\*\*\*\*
+2. Type in your email and click the **"Sign Up / Login"** button
+3. Go to your email and click on the magic link to login
+4. Once you are logged in, you will get **10 test XTZ**
+5. Now you can use your test XTZ in our [**example app**](https://go.magic.link/example-tezos)\*\*\*\*
+
+### Call Extension Method
+
 Note that the Magic Tezos extension follows the method names and conventions by [**ConceilJS**](https://cryptonomic.github.io/ConseilJS/#/?id=smart-contract-interactions) \(link to documentation\). To deploy a Tezos smart contract, you can call the `magic.tezos.sendContractOriginationOperation` method.
 
 {% tabs %}
