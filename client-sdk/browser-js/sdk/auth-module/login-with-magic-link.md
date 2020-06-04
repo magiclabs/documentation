@@ -15,7 +15,7 @@ description: >-
 
 ### Returns
 
-`Promise<string | null>`: The promise resolves upon authentication request success and rejects with a specific error code if the request fails. The resolved value is a Decentralized ID token with a default 15-minute lifespan.
+[`PromiEvent<string | null>`](../promievents.md): The promise resolves upon authentication request success and rejects with a specific error code if the request fails. The resolved value is a Decentralized ID token with a default 15-minute lifespan.
 
 ### Example
 
@@ -67,4 +67,10 @@ try {
 }
 
 ```
+
+### Events
+
+* `email-not-deliverable`: Dispatched if the magic link email is unable to be delivered.
+* `email-sent`: Dispatched when the magic link email has been successfully sent from the Magic Link server.
+* `retry`: Dispatched when the user restarts the flow. This can only happen if `showUI: true`.
 

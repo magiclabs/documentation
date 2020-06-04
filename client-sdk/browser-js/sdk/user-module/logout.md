@@ -10,7 +10,7 @@ None.
 
 ### Returns
 
-`Promise<void>`
+[`PromiEvent<boolean>`](../promievents.md)
 
 ### Example
 

@@ -13,7 +13,7 @@ description: initiates the update email flow that allows a user to change to a n
 
 ### Returns
 
-`Promise<boolean>`: The promise resolves with a true boolean value if update email is successful and rejects with a specific error code if the request fails. 
+[`PromiEvent<boolean>`](../promievents.md): The promise resolves with a true boolean value if update email is successful and rejects with a specific error code if the request fails. 
 
 ### Example
 
@@ -68,4 +68,12 @@ try {
 }
 
 ```
+
+### Events
+
+* `new-email-confirmed`: Dispatched when the magic link has been clicked from the user’s new email address.
+* `email-sent`: Dispatched when the magic link email has been successfully sent from the Magic Link server to the user’s new email address.
+* `email-not-deliverable`: Dispatched if the magic link email is unable to be delivered to the user’s new email address.
+* `old-email-confirmed`: Dispatched when the magic link has been clicked from the user’s previous email address.
+* `retry`: Dispatched when the user restarts the flow. This can only happen if `showUI: true`.
 

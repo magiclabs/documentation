@@ -10,7 +10,7 @@ None.
 
 ### Returns
 
-`Promise<Boolean>`
+[`PromiEvent<Boolean>`](../promievents.md)
 
 ### Example
 

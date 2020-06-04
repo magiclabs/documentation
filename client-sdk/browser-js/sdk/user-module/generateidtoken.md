@@ -13,7 +13,7 @@ description: Generates a Decentralized Id Token with optional serialized data.
 
 ### Returns
 
-`Promise<string>`: Base64-encoded string representation of a JSON tuple representing `[proof, claim]`
+[`PromiEvent<string>`](../promievents.md): Base64-encoded string representation of a JSON tuple representing `[proof, claim]`
 
 {% page-ref page="../../../../tutorials/decentralized-id.md" %}
 

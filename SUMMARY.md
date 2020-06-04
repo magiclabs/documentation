@@ -31,6 +31,7 @@
       * [isLoggedIn](client-sdk/browser-js/sdk/user-module/isloggedin.md)
       * [logout](client-sdk/browser-js/sdk/user-module/logout.md)
     * [Errors & Warnings](client-sdk/browser-js/sdk/errors-and-warnings.md)
+    * [PromiEvents](client-sdk/browser-js/sdk/promievents.md)
   * [🧩 Examples](client-sdk/browser-js/examples/README.md)
     * [Re-authenticate Users](client-sdk/browser-js/examples/re-authenticate-users.md)
     * [Migrating From Fortmatic](client-sdk/browser-js/examples/migrating-from-fortmatic.md)

@@ -6,20 +6,20 @@ description: Getting started with the Magic React Native JavaScript SDK
 
 ## 📦 Installation
 
-{% hint style="info" %}
-React Native is available as of **`magic-sdk@1.1.1`**
+{% hint style="warning" %}
+As of `magic-sdk@2.0.0`, React Native bindings are published as a separate NPM package.
 {% endhint %}
 
 {% tabs %}
 {% tab title="NPM" %}
 ```bash
-npm install --save magic-sdk
+npm install --save @magic-sdk/react-native
 ```
 {% endtab %}
 
 {% tab title="Yarn" %}
 ```bash
-yarn add magic-sdk
+yarn add @magic-sdk/react-native
 ```
 {% endtab %}
 {% endtabs %}
@@ -29,7 +29,7 @@ yarn add magic-sdk
 {% tabs %}
 {% tab title="ES Modules/TypeScript" %}
 ```typescript
-import { Magic } from 'magic-sdk/react-native';
+import { Magic } from '@magic-sdk/react-native';
 
 const m = new Magic('API_KEY'); // ✨
 ```
@@ -37,7 +37,7 @@ const m = new Magic('API_KEY'); // ✨
 
 {% tab title="CommonJS" %}
 ```typescript
-const { Magic } = require('magic-sdk/react-native');
+const { Magic } = require('@magic-sdk/react-native');
 
 const m = new Magic('API_KEY'); // ✨
 ```
@@ -76,10 +76,10 @@ As with the Browser JS SDK, the React Native SDK can be used with Ethereum via *
 ```typescript
 // 🚫 Bad!
 import Web3 from 'web3';
-import { Magic } from 'magic-sdk/react-native';
+import { Magic } from '@magic-sdk/react-native';
 
 // ✅ Good!
-import { Magic } from 'magic-sdk/react-native';
+import { Magic } from '@magic-sdk/react-native';
 import Web3 from 'web3';
 ```
 

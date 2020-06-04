@@ -10,7 +10,7 @@ None.
 
 ### Returns
 
-`Promise<{ issuer, email, publicAddress }>`: an object containing the issuer, email and cryptographic [public address ](https://support.blockchain.com/hc/en-us/articles/360000951966-Public-and-private-keys)of the authenticated user.
+[`PromiEvent<{ issuer, email, publicAddress }>`](../promievents.md): an object containing the issuer, email and cryptographic [public address ](https://support.blockchain.com/hc/en-us/articles/360000951966-Public-and-private-keys)of the authenticated user.
 
 * `issuer` \(String\): The Decentralized ID of the user.  In server-side use-cases, we recommend this value to be used as the user ID in your own tables.
 * `email` \(String\): Email address of the authenticated user.
