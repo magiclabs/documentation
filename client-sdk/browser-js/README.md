@@ -20,3 +20,5 @@ Magic can support both server-based or serverless web applications. It is up to 
 
 {% page-ref page="../../admin-sdk/python/" %}
 
+
+
