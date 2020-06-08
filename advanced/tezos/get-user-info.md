@@ -1,8 +1,8 @@
 # 👤 Get User Info
 
-## Get account
+## Get Account
 
-Using getAccount function to get tezos public address for current user.
+Using getAccount function to get Tezos public address for current user.
 
 {% tabs %}
 {% tab title="ES Modules/TypeScript" %}
@@ -18,7 +18,7 @@ const magic = new Magic('YOUR_API_KEY', {
   ]
 });
 
-// Get user's tezose public address
+// Get user's Tezos public address
 const publicAddress = await magic.tezos.getAccount();
 console.log('Tezos Public Address: ', publicAddress);
 ```

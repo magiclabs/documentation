@@ -119,4 +119,9 @@
   * [👤 Get User Info](advanced/tezos/get-user-info.md)
   * [💸 Send Transaction](advanced/tezos/send-transaction.md)
   * [📜 Smart Contract](advanced/tezos/smart-contract.md)
+* [⛓ ICON](advanced/icon/README.md)
+  * [🚀 Get Started](advanced/icon/get-started.md)
+  * [👤 Get User Info](advanced/icon/get-user-info.md)
+  * [💸 Send Transaction](advanced/icon/send-transaction.md)
+  * [📜 Smart Contract](advanced/icon/smart-contract.md)
 
