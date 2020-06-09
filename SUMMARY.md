@@ -102,7 +102,7 @@
 ## Advanced
 
 * [⛓ Ethereum](advanced/ethereum/README.md)
-  * [Javascript](advanced/ethereum/javascript/README.md)
+  * [JavaScript](advanced/ethereum/javascript/README.md)
     * [🚀 Get Started](advanced/ethereum/javascript/get-started.md)
     * [👤 Get User Info](advanced/ethereum/javascript/get-user-info.md)
     * [💸 Send Transaction](advanced/ethereum/javascript/send-transaction.md)
