@@ -71,7 +71,7 @@ APIs from [**Browser JS**](../browser-js/) are also available in the React Nativ
 
 ## ⛓ Usage With Ethereum/Web3
 
-As with the Browser JS SDK, the React Native SDK can be used with Ethereum via **Web3** or **Ethers JS**. There's just one "_gotcha"_ to be aware of: **`magic-sdk/react-native`** must be imported **before `web3`** \(this restriction does not apply to `ethers`\). For example:
+As with the Browser JS SDK, the React Native SDK can be used with Ethereum via **Web3** or **Ethers JS**. There's just one "_gotcha"_ to be aware of: **`@magic-sdk/react-native`** must be imported **before `web3`** \(this restriction does not apply to `ethers`\). For example:
 
 ```typescript
 // 🚫 Bad!
