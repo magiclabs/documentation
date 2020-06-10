@@ -111,7 +111,7 @@ Now that you have an understanding of how Magic works on the client-side, we _st
 
 Did you know you can actually customize the login experience \(using your own UI instead of the default\) and also have a branded magic link email? You can learn how to do that with the link below!
 
-{% page-ref page="tutorials/customization.md" %}
+{% page-ref page="customization.md" %}
 
 Learn about how to use the popular [**Next.js**](https://nextjs.org/) framework to build a React app and deploy it with [**Vercel**](https://vercel.com/)!
 

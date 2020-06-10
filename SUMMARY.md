@@ -3,13 +3,13 @@
 * [🎩 Welcome](README.md)
 * [🚀 Get Started](get-started.md)
 * [🛡️ Security](security.md)
+* [🎨 Customization](customization.md)
 * [💬 FAQ](faq.md)
 
 ## Tutorials
 
 * [🍎 Full Stack Node.js](tutorials/full-stack-node-js.md)
 * [▲ Next.js Integration](tutorials/next-js-integration.md)
-* [🎨 Customization](tutorials/customization.md)
 * [🔥 Firebase Integration](tutorials/firebase-integration.md)
 * [👤 Decentralized ID](tutorials/decentralized-id.md)
 
