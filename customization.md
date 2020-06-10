@@ -4,7 +4,7 @@ description: Learn how to customize the Magic user onboarding experience.
 
 # 🎨 Customization
 
-Magic includes a slick default loading screen to save developers implementation time, but also allows developers to have full customizability of their user on-boarding experience!
+Magic includes a default pending modal UI to save developers implementation time and to get passwordless login working ASAP. But we also allow developers to have full customizability of their user on-boarding experience.
 
 ![Default branding](.gitbook/assets/screen-shot-2020-06-09-at-7.20.27-pm.png)
 
