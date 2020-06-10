@@ -1,6 +1,6 @@
 # User Login
 
-This example shows how you can implement  user `login` on the server side using the [DID Token](../../../tutorials/decentralized-id.md). 
+This example shows how you can implement  user `login` on the server side using the [DID Token](../../../decentralized-id.md). 
 
 The example assumes:
 

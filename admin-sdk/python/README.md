@@ -6,7 +6,7 @@
 We will also be releasing `magic-admin-django` and `magic-admin-flask` to offer the direct `magic-admin` SDK integration for the Python Web frameworks.
 {% endhint %}
 
-The Magic server-side Python SDK makes it easy to leverage[ Decentralized ID Tokens](../../tutorials/decentralized-id.md) to authenticate your users for your app. This guide will cover some important topics for getting started with server-side APIs and to make the most of Magic's features.
+The Magic server-side Python SDK makes it easy to leverage[ Decentralized ID Tokens](../../decentralized-id.md) to authenticate your users for your app. This guide will cover some important topics for getting started with server-side APIs and to make the most of Magic's features.
 
 **👉 Go to our** [**Getting Started**](python-get-started.md) **tutorial to begin your integration**
 

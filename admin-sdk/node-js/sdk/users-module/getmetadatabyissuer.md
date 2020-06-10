@@ -8,7 +8,7 @@ description: Retrieves information about user by the supplied "issuer".
 
 `getMetadataByIssuer(issuer)`
 
-* `issuer` \(String\): The user's [Decentralized ID](../../../../tutorials/decentralized-id.md), which can be parsed using [`TokenModule.getIssuer`](../token-module/getissuer.md).
+* `issuer` \(String\): The user's [Decentralized ID](../../../../decentralized-id.md), which can be parsed using [`TokenModule.getIssuer`](../token-module/getissuer.md).
 
 ### Returns
 

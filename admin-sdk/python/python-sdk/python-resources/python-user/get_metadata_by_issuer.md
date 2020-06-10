@@ -1,6 +1,6 @@
 # get\_metadata\_by\_issuer
 
-Retrieves information about the user by the supplied `iss` from the [DID Token](../../../../../tutorials/decentralized-id.md). This method is useful if you store the `iss` with your user data, **which is recommended**.
+Retrieves information about the user by the supplied `iss` from the [DID Token](../../../../../decentralized-id.md). This method is useful if you store the `iss` with your user data, **which is recommended**.
 
 ```text
 User.get_metadata_by_issuer(issuer)

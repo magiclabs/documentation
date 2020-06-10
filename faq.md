@@ -38,5 +38,5 @@ Right now there isn't a way, but we are currently implementing a feature that en
 
 Users remain authenticated with the Magic service for up to 7 days \(or until they clear their browser history/caches\). This means that a user will need to click on a magic link, at most, once every 7 days for each device they log into. We are exploring ways to allow this session length to be customizable via SDKs or the Magic Dashboard.
 
-If you're building a custom backend, we recommend our [Decentralized ID token](tutorials/decentralized-id.md) as a way to initiate server-side sessions. The DID Token is a cryptographically-generated proof of user authentication. Your resource server simply needs to validate the token and set an HTTPS session cookie. This option gives you the flexibility of maintaining your own sessions without storing user secrets.
+If you're building a custom backend, we recommend our [Decentralized ID token](decentralized-id.md) as a way to initiate server-side sessions. The DID Token is a cryptographically-generated proof of user authentication. Your resource server simply needs to validate the token and set an HTTPS session cookie. This option gives you the flexibility of maintaining your own sessions without storing user secrets.
 

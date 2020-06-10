@@ -107,7 +107,7 @@ const handleLogout = async () => {
 
 Now that you have an understanding of how Magic works on the client-side, we _strongly recommend_ you to take a look at an end-to-end, full-stack example to learn about how to connect it to a Node.js backend server and see the full potential of Magic!
 
-{% page-ref page="tutorials/full-stack-node-js.md" %}
+{% page-ref page="technologies/full-stack-node-js.md" %}
 
 Did you know you can actually customize the login experience \(using your own UI instead of the default\) and also have a branded magic link email? You can learn how to do that with the link below!
 
@@ -115,9 +115,9 @@ Did you know you can actually customize the login experience \(using your own UI
 
 Learn about how to use the popular [**Next.js**](https://nextjs.org/) framework to build a React app and deploy it with [**Vercel**](https://vercel.com/)!
 
-{% page-ref page="tutorials/next-js-integration.md" %}
+{% page-ref page="technologies/next-js-integration.md" %}
 
 Magic provides much flexibility and composability to be combined with many other powerful platforms such as Firebase. You can learn how to plug Magic into the entire Firebase suite of tools here!
 
-{% page-ref page="tutorials/firebase-integration.md" %}
+{% page-ref page="technologies/firebase-integration.md" %}
 

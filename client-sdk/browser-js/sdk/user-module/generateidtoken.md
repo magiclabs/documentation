@@ -15,7 +15,7 @@ description: Generates a Decentralized Id Token with optional serialized data.
 
 [`PromiEvent<string>`](../promievents.md): Base64-encoded string representation of a JSON tuple representing `[proof, claim]`
 
-{% page-ref page="../../../../tutorials/decentralized-id.md" %}
+{% page-ref page="../../../../decentralized-id.md" %}
 
 ### Example
 

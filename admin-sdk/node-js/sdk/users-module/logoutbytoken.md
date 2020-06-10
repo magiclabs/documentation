@@ -10,7 +10,7 @@ description: >-
 
 `logoutByToken(didToken)`
 
-* `didToken` \(String\): A valid [Decentralized ID Token](../../../../tutorials/decentralized-id.md) generated client-side by a Magic user.
+* `didToken` \(String\): A valid [Decentralized ID Token](../../../../decentralized-id.md) generated client-side by a Magic user.
 
 ### Returns
 

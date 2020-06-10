@@ -2,7 +2,7 @@
 
 ## 🚀 Welcome to the Magic Node.js SDK
 
-The Magic server-side JavaScript SDK makes it easy to leverage[ Decentralized ID Tokens](../../tutorials/decentralized-id.md) to protect routes and restricted resources for your app. This guide will cover some important topics for getting started with server-side APIs and to make the most of Magic's features.
+The Magic server-side JavaScript SDK makes it easy to leverage[ Decentralized ID Tokens](../../decentralized-id.md) to protect routes and restricted resources for your app. This guide will cover some important topics for getting started with server-side APIs and to make the most of Magic's features.
 
 **👉 Go to our** [**Getting Started**](get-started.md) **tutorial to begin your integration**
 

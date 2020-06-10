@@ -3,15 +3,15 @@
 * [🎩 Welcome](README.md)
 * [🚀 Get Started](get-started.md)
 * [🛡️ Security](security.md)
+* [👤 Decentralized ID](decentralized-id.md)
 * [🎨 Customization](customization.md)
 * [💬 FAQ](faq.md)
 
-## Tutorials
+## Technologies
 
-* [🍎 Full Stack Node.js](tutorials/full-stack-node-js.md)
-* [▲ Next.js Integration](tutorials/next-js-integration.md)
-* [🔥 Firebase Integration](tutorials/firebase-integration.md)
-* [👤 Decentralized ID](tutorials/decentralized-id.md)
+* [🍎 Node.js Integration](technologies/full-stack-node-js.md)
+* [🔥 Firebase Integration](technologies/firebase-integration.md)
+* [▲ Next.js Integration](technologies/next-js-integration.md)
 
 ## Client SDK Reference <a id="client-sdk"></a>
 
