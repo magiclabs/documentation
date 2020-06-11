@@ -33,6 +33,7 @@ ErrorCode.IncorrectSignerAddress
 | Enum Key | Description |
 | :--- | :--- |
 | `TokenExpired` | The supplied DID Token is invalid due to an expired timestamp. |
+| `TokenCannotBeUsedYet` | The `nbf` \("not before"\) field of the supplied DID Token is set in the future. By default, a 5 minute leeway is added to the timestamp. |
 | `IncorrectSignerAddress` | The supplied DID Token is invalid due to a mismatch between the signature origin and the claimed user public address. |
 | `FailedRecoveryProof` | The supplied DID Token could not be recovered using Elliptic Curve recovery. |
 | `ApiKeyMissing` | The API key required for a particular action is missing or malformed. |
