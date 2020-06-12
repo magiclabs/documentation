@@ -35,13 +35,13 @@ SDKErrorCode.MalformedResponse
 
 ### Error Codes
 
-| Code | Enum Key | Description |
-| :--- | :--- | :--- |
-| `MISSING_API_KEY` | `MissingApiKey` | Indicates the required Magic API key is missing or invalid. |
-| `MODAL_NOT_READY` | `ModalNotReady` | Indicates the Magic iframe context is not ready to receive events. This error should be rare and usually indicates an environmental issue or improper `async/await` usage. |
-| `MALFORMED_RESPONSE` | `MalformedResponse` | Indicates the response received from the Magic iframe context is malformed. We all make mistakes \(even us\), but this should still be a rare exception. If you encounter this, please be aware of phishing! |
-| `INVALID_ARGUMENT` | `InvalidArgument` | Raised if an SDK method receives an invalid argument. Generally, TypeScript saves us all from simple bugs, but there are validation edge cases it cannot solve—this error type will keep you informed! |
-| `EXTENSION_NOT_INITIALIZED` | `ExtensionNotInitialized` | Indicates an extension method was invoked before the Magic SDK instance was initialized. Make sure to access extension methods only from the Magic SDK instance to avoid this error. |
+| Enum Key | Description |
+| :--- | :--- |
+| `MissingApiKey` | Indicates the required Magic API key is missing or invalid. |
+| `ModalNotReady` | Indicates the Magic iframe context is not ready to receive events. This error should be rare and usually indicates an environmental issue or improper `async/await` usage. |
+| `MalformedResponse` | Indicates the response received from the Magic iframe context is malformed. We all make mistakes \(even us\), but this should still be a rare exception. If you encounter this, please be aware of phishing! |
+| `InvalidArgument` | Raised if an SDK method receives an invalid argument. Generally, TypeScript saves us all from simple bugs, but there are validation edge cases it cannot solve—this error type will keep you informed! |
+| `ExtensionNotInitialized` | Indicates an extension method was invoked before the Magic SDK instance was initialized. Make sure to access extension methods only from the Magic SDK instance to avoid this error. |
 
 ## `RPCError`
 
