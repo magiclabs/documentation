@@ -11,7 +11,7 @@ As of `magic-sdk@2.0.0`, React Native bindings are published as a separate NPM p
 {% endhint %}
 
 {% hint style="warning" %}
-Since "@magic-sdk/react-native@2.0.0", "react-native-webview" is served as a peer dependency to avoid IOS Webview module collision. For more detail, please check [here](https://github.com/react-native-community/react-native-webview/issues/373).
+Since `2.0.0`, the sub-dependency`react-native-webview` is removed from the package dependencies and required as a peer dependency to avoid IOS Webview module collision. For more detail, please check [here](https://github.com/react-native-community/react-native-webview/issues/373).
 {% endhint %}
 
 {% tabs %}
