@@ -45,7 +45,7 @@ class MagicViewController: UIViewController {
 
 `GetIdTokenConfiguration(lifespan: Int = 900)` 
 
-* `lifespan?` \(String\): will set the lifespan of the generated token. Defaults to 900s \(15 mins\)
+* `lifespan?` \(Int\): will set the lifespan of the generated token. Defaults to 900s \(15 mins\)
 
 
 

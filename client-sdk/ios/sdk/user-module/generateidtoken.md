@@ -1,3 +1,7 @@
+---
+description: Generates a Decentralized Id Token with optional serialized data.
+---
+
 # generateIdToken
 
 ### **Public Methods**

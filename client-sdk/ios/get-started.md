@@ -24,7 +24,7 @@ Run the following command:
 $ pod install
 ```
 
-To update pods to latest, run the following command
+To update pods to the latest:
 
 ```text
 $ pod update

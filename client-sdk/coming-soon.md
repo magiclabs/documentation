@@ -1,10 +1,6 @@
 # 🔜 Coming Soon
 
-## Mobile
-
-* Android
-
-## Advanced
+### Advanced
 
 * Integration with WebAuthn / FIDO
 * Integration with IPFS
