@@ -53,7 +53,7 @@
 * [📱Android](client-sdk/android/README.md)
   * [🚀 Get Started](client-sdk/android/get-started.md)
   * [🗄 SDK](client-sdk/android/sdk/README.md)
-    * [Constructor1](client-sdk/android/sdk/constructor1.md)
+    * [Constructor](client-sdk/android/sdk/constructor1.md)
     * [User Module](client-sdk/android/sdk/user-module/README.md)
       * [updateEmail](client-sdk/android/sdk/user-module/updateemail.md)
       * [getIdToken](client-sdk/android/sdk/user-module/getidtoken.md)

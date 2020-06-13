@@ -4,7 +4,7 @@ description: >-
   with a Magic publishable key.
 ---
 
-# Constructor1
+# Constructor
 
 ## Magic
 
