@@ -10,16 +10,22 @@ description: Getting started with the Magic React Native JavaScript SDK
 As of `magic-sdk@2.0.0`, React Native bindings are published as a separate NPM package.
 {% endhint %}
 
+{% hint style="warning" %}
+Since "@magic-sdk/react-native@2.0.0", "react-native-webview" is served as a peer dependency to avoid IOS Webview module collision. For more detail, please check [here](https://github.com/react-native-community/react-native-webview/issues/373).
+{% endhint %}
+
 {% tabs %}
 {% tab title="NPM" %}
 ```bash
 npm install --save @magic-sdk/react-native
+npm install --save react-native-webview@^8.0.0
 ```
 {% endtab %}
 
 {% tab title="Yarn" %}
 ```bash
 yarn add @magic-sdk/react-native
+yarn add react-native-webview@^8.0.0
 ```
 {% endtab %}
 {% endtabs %}
@@ -57,10 +63,10 @@ To facilitate events between the Magic `<iframe>` context and your React Native 
 ```typescript
 function App() {
   return (
-    <div>
+    <View>
       {/* Remember to render the `Relayer` component into your app! */}
       <m.Relayer />
-    </div>
+    </View>
   );
 }
 ```
