@@ -15,7 +15,7 @@ description: >-
 
 ### Returns
 
-`Promise<String>`: The promise resolves with a true boolean value if update email is successful and rejects with a specific error code if the request fails. 
+`Promise<String>`: Base64-encoded string representation of a JSON tuple representing `[proof, claim]`
 
 ### Example
 
