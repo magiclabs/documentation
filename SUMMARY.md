@@ -143,4 +143,9 @@
   * [👤 Get User Info](advanced/icon/get-user-info.md)
   * [💸 Send Transaction](advanced/icon/send-transaction.md)
   * [📜 Smart Contract](advanced/icon/smart-contract.md)
+* [⛓ Zilliqa](advanced/zilliqa/README.md)
+  * [🚀 Get Started](advanced/zilliqa/get-started.md)
+  * [👤 Get User Wallet](advanced/zilliqa/get-user-wallet.md)
+  * [💸 Send Transaction](advanced/zilliqa/send-transaction.md)
+  * [📜 Smart Contract](advanced/zilliqa/smart-contract.md)
 
