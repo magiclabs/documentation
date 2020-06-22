@@ -16,7 +16,7 @@ Before you can send transaction on the ICON blockchain, you'll need to acquire s
 
 ### Call Extension Method
 
-Note that the Magic ICON extension follows the method names and conventions by [**ICON's Javascript SDK**](https://www.icondev.io/docs/javascript-sdk). \(link to documentation\). To send a standard ICON blockchain transaction, you can call the `magic.icon.sendTransaction` method.
+Note that the Magic ICON extension follows the method names and conventions by [**ICON's Javascript SDK**](https://www.icondev.io/docs/javascript-sdk). \(link to documentation\). Please follow [**ICON contract deploy documentation**](https://www.icondev.io/docs/javascript-sdk#token-deploy-and-transfer) to create and compile the smart contract. To deploy an ICON smart contract, you can call the `magic.icon.sendTransaction` method to send deploy contract transaction.
 
 {% tabs %}
 {% tab title="ES Modules/TypeScript" %}
