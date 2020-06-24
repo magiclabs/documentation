@@ -7,17 +7,19 @@ description: Getting started with the Magic React Native JavaScript SDK
 ## 📦 Installation
 
 {% hint style="warning" %}
-As of `magic-sdk@2.0.0`, React Native bindings are published as a separate NPM package.
+As of **`magic-sdk@2.0.0`**, React Native bindings are published as a separate NPM package.
 {% endhint %}
 
 {% hint style="warning" %}
-Since `2.0.0`, the sub-dependency`react-native-webview` is removed from the package dependencies and required as a peer dependency to avoid IOS Webview module collision. For more detail, please check [here](https://github.com/react-native-community/react-native-webview/issues/373).
+As of  **`@magic-sdk/react-native@2.0.0`**, the sub-dependency`react-native-webview` is removed from the package dependencies and required as a peer dependency to avoid IOS WebView module collision. For more details, please check [here](https://github.com/react-native-community/react-native-webview/issues/373).
 {% endhint %}
 
 {% tabs %}
 {% tab title="NPM" %}
 ```bash
 npm install --save @magic-sdk/react-native
+
+# Ensure the required `peerDependencies` are installed
 npm install --save react-native-webview@^8.0.0
 ```
 {% endtab %}
@@ -25,6 +27,8 @@ npm install --save react-native-webview@^8.0.0
 {% tab title="Yarn" %}
 ```bash
 yarn add @magic-sdk/react-native
+
+# Ensure the required `peerDependencies` are installed
 yarn add react-native-webview@^8.0.0
 ```
 {% endtab %}
