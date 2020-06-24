@@ -16,15 +16,15 @@ This section is to help new developers who don't already have a project with Fir
 
 ### Create a Firebase Project
 
-1️⃣ In the [Firebase console](https://console.firebase.google.com/), click **Add project**, then select or enter a **Project name**.
+1️. In the [Firebase console](https://console.firebase.google.com/), click **Add project**, then select or enter a **Project name**.
 
-2️⃣ Click **Continue** through the steps and then Click **Create project**.
+2️. Click **Continue** through the steps and then Click **Create project**.
 
-3️⃣ After a minute or so, your project will be successfully created. You can then continue to your project home page, where you can enable the **Firestore** database feature. 
+3️. After a minute or so, your project will be successfully created. You can then continue to your project home page, where you can enable the **Firestore** database feature. 
 
 ![](../.gitbook/assets/screen-shot-2020-03-19-at-12.26.24-am.png)
 
-4️⃣ After that you can click on the **Create database** button and you will be directed through a short flow to complete the setup. Don't worry too much about the secure rules yet, as we'll get to it later.
+4️. After that you can click on the **Create database** button and you will be directed through a short flow to complete the setup. Don't worry too much about the secure rules yet, as we'll get to it later.
 
 ![](../.gitbook/assets/screen-shot-2020-03-19-at-12.29.49-am.png)
 
@@ -44,29 +44,29 @@ When you initialize Firebase SDK for Cloud Functions, you create an empty projec
 
 **To initialize your project:**
 
-1️⃣ Run `firebase login` to log in via the browser and authenticate the firebase tool.
+1️. Run `firebase login` to log in via the browser and authenticate the firebase tool.
 
-2️⃣ Go to your Firebase project directory or create a new empty directory.
+2️. Go to your Firebase project directory or create a new empty directory.
 
-3️⃣ Run `firebase init` command to initialize your project.
+3️. Run `firebase init` command to initialize your project.
 
 ![](../.gitbook/assets/screen-shot-2020-03-19-at-12.49.00-am.png)
 
 Now you will see some options you'll be able to multi-select, pick _both_ the **Firestore** and **Functions** options to be able to go through this tutorial.
 
-4️⃣ After that you will be presented an option to Use an existing project, pick this option and select the project name you just created on the [Firebase console](https://console.firebase.google.com/).
+4️. After that you will be presented an option to Use an existing project, pick this option and select the project name you just created on the [Firebase console](https://console.firebase.google.com/).
 
 ![](../.gitbook/assets/screen-shot-2020-03-19-at-12.54.03-am.png)
 
-5️⃣ Select _Default_ or _Yes_ to every step after to initialize the Firestore configurations.
+5️. Select _Default_ or _Yes_ to every step after to initialize the Firestore configurations.
 
 ![](../.gitbook/assets/screen-shot-2020-03-19-at-1.00.40-am.png)
 
-6️⃣ For the purpose of this tutorial, select _Javascript_ language option when presented for Cloud Functions configurations.
+6️. For the purpose of this tutorial, select _Javascript_ language option when presented for Cloud Functions configurations.
 
 ![](../.gitbook/assets/screen-shot-2020-03-19-at-1.00.48-am.png)
 
-7️⃣ Continue the steps and after the npm packages are installed, your project will be fully initialized and        ready to go! 🔥
+7️. Continue the steps and after the npm packages are installed, your project will be fully initialized and        ready to go! 🔥
 
 ## 🔌 Connect Magic to Firebase Auth
 
@@ -115,7 +115,7 @@ The Auth callable Cloud Function will be the crucial piece to converting a Magic
 
 ### Configure and Initialize
 
-1️⃣ In your Cloud Functions file, you'll have to initialize Firebase with its admin SDK and your **service account credential**.
+1️. In your Cloud Functions file, you'll have to initialize Firebase with its admin SDK and your **service account credential**.
 
 ```javascript
 require('dotenv').config();
@@ -130,11 +130,11 @@ admin.initializeApp({
 });
 ```
 
-2️⃣ Getting the **service account credential** is extremely important to make sure you have the right permissions to create the Firebase user access token. You can find it in your **Project settings** page, under the **Service accounts** tab, and then click on **Generate new private key**.
+2️. Getting the **service account credential** is extremely important to make sure you have the right permissions to create the Firebase user access token. You can find it in your **Project settings** page, under the **Service accounts** tab, and then click on **Generate new private key**.
 
 ![](../.gitbook/assets/screen-shot-2020-03-19-at-12.58.45-pm.png)
 
-3️⃣ After downloading the credential, you can put the `.json` credential file into your project directory and update the path in the `const serviceAccount = require("./path/to/my-project.json");` line, as well as updating the `databaseURL` to the one you see in your project settings dashboard.
+3️. After downloading the credential, you can put the `.json` credential file into your project directory and update the path in the `const serviceAccount = require("./path/to/my-project.json");` line, as well as updating the `databaseURL` to the one you see in your project settings dashboard.
 
 {% hint style="warning" %}
 These are your firebase server side credentials, keep them secret!

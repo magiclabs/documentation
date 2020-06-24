@@ -21,7 +21,7 @@ Deploying and iterating on a Next.js application is super easy. You can simply c
 
 👉 [**Deploy Next.js Magic Example**](https://vercel.com/new/project?template=https://github.com/zeit/next.js/tree/canary/examples/with-magic)\*\*\*\*
 
-### 1️⃣ Configure Environment Values
+### 1️. Configure Environment Values
 
 ![](../.gitbook/assets/screen-shot-2020-04-22-at-9.06.19-pm.png)
 
@@ -43,13 +43,13 @@ Nothing needs to be changed here, hit **Continue** again.
 
 ![](../.gitbook/assets/screen-shot-2020-04-22-at-9.15.55-pm.png)
 
-### 2️⃣ Setup Github Repository
+### 2️. Setup Github Repository
 
 You now have the option to connect your Github account and create a repository based on Next.js's official [**`with-magic`**](https://github.com/zeit/next.js/tree/canary/examples/with-magic) example.
 
 ![](../.gitbook/assets/screen-shot-2020-04-22-at-9.17.15-pm.png)
 
-### 3️⃣ Deploy Application
+### 3️. Deploy Application
 
 Now you are presented with the screen below, nothing needs to be changed, simply hit **Deploy** to start the production deployment of the Next.js Magic example application!
 

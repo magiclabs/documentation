@@ -20,7 +20,7 @@ Since there are quite a few steps, we'll be walking through each of the steps in
 
 The full stack Node.js server is set up using the vanilla Express template on CodeSandBox, using [NeDB](https://github.com/louischatriot/nedb) as an ultra lightweight database \(you can switch it to other databases like MongoDB too\) and the [`express-session`](https://github.com/louischatriot/nedb) NPM package to manage sessions. We'll make use of the Magic _Admin_ SDK for this example. You can learn how to install it via npm or yarn in the [Node.js reference](../admin-sdk/node-js/get-started.md#installation).
 
-### 1️⃣ Setup Environment Variables
+### 1️. Setup Environment Variables
 
 Now that you've opened the CodeSandBox [**Template Code**](https://codesandbox.io/s/github/MagicHQ/example-nodejs), you can first click **"Fork"** to create your own instance to play with.
 
@@ -54,7 +54,7 @@ const magic = new Magic(process.env.MAGIC_SECRET_KEY);
 Now your very own full-stack Magic Apple Store application is running! 🍎 The content below will explain each of  major section of the code base.
 {% endhint %}
 
-### 2️⃣ Implement Auth Strategy
+### 2️. Implement Auth Strategy
 
 Magic leverages the popular and battle-tested [Passport](http://www.passportjs.org/) authentication middleware package for Express to provide our passwordless authentication service. This way it will be very seamless and easy to integrate for developers who are already familiar with Passport! _\(Don't worry if you are not, we'll go through comprehensive examples in this tutorial\)_ 
 
@@ -84,7 +84,7 @@ const strategy = new MagicStrategy(async function(user, done) {
 passport.use(strategy);
 ```
 
-### 3️⃣ Implement Auth Behaviors
+### 3️. Implement Auth Behaviors
 
 #### Implement User Signup
 
@@ -153,7 +153,7 @@ await fetch(`${serverUrl}user/login`, {
 ...
 ```
 
-### 4️⃣ Implement Session Behavior
+### 4️. Implement Session Behavior
 
 An awesome feature from the Passport middleware is the possibility to populate the `req.user` object with an actual database record, so that the data can be conveniently used in your endpoints. See the next section for more examples.
 
@@ -178,7 +178,7 @@ passport.deserializeUser(async (id, done) => {
 });
 ```
 
-### 5️⃣ Implement User Endpoints
+### 5️. Implement User Endpoints
 
 #### Implement Get Data Endpoint
 
