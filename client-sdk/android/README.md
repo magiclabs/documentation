@@ -1,4 +1,4 @@
-# 📱Android
+# Android
 
 ## 🚀 Welcome to the Magic Android SDK
 

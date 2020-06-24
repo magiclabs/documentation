@@ -2,7 +2,7 @@
 description: End-to-end example showing how Magic works with the Node.js Express framework.
 ---
 
-# 🍎 Node.js Integration
+# Node.js Integration
 
 ## 🏗️ Get Template Code
 

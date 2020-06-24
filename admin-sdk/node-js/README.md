@@ -1,4 +1,4 @@
-# 🌐 Node.js
+# Node.js
 
 ## 🚀 Welcome to the Magic Node.js SDK
 

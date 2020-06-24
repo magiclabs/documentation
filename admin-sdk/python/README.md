@@ -1,4 +1,4 @@
-# 🐍 Python
+# Python
 
 ## 🚀 Welcome to the Magic Admin Python SDK
 

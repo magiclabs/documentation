@@ -1,4 +1,4 @@
-# 🔜 Coming Soon
+# Coming Soon
 
 ## Server Admin SDK
 

@@ -1,4 +1,4 @@
-# 📱 React Native
+# React Native
 
 ## 🚀 Welcome to the Magic React Native JS SDK
 

@@ -4,7 +4,7 @@ description: >-
   power of Firebase!
 ---
 
-# 🔥 Firebase Integration
+# Firebase Integration
 
 Magic works out of the box with Firebase - seamlessly connecting state-of-the-art, no lock-in identity and authentication to the immense power of the Google platform.
 

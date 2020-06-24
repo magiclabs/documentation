@@ -1,4 +1,4 @@
-# 📱iOS
+# iOS
 
 ## 🚀 Welcome to the Magic IOS SDK
 

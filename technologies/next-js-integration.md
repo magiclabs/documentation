@@ -1,4 +1,4 @@
-# ▲ Next.js Integration
+# Next.js Integration
 
 \*\*\*\*[**Next.js**](https://nextjs.org/) ****is a popular React Framework with many built-in features, such as:
 

@@ -7,15 +7,15 @@
 * [🎨 Customization](customization.md)
 * [💬 FAQ](faq.md)
 
-## Technologies
+## 💡 Technologies
 
-* [🍎 Node.js Integration](technologies/full-stack-node-js.md)
-* [🔥 Firebase Integration](technologies/firebase-integration.md)
-* [▲ Next.js Integration](technologies/next-js-integration.md)
+* [Node.js Integration](technologies/full-stack-node-js.md)
+* [Firebase Integration](technologies/firebase-integration.md)
+* [Next.js Integration](technologies/next-js-integration.md)
 
-## Client SDK Reference <a id="client-sdk"></a>
+## 🌐 Client SDK Reference <a id="client-sdk"></a>
 
-* [🌐 Browser JS](client-sdk/browser-js/README.md)
+* [Browser JS](client-sdk/browser-js/README.md)
   * [🚀 Get Started](client-sdk/browser-js/get-started.md)
   * [🗄 SDK](client-sdk/browser-js/sdk/README.md)
     * [Constructor](client-sdk/browser-js/sdk/constructor.md)
@@ -35,9 +35,9 @@
   * [🧩 Examples](client-sdk/browser-js/examples/README.md)
     * [Re-authenticate Users](client-sdk/browser-js/examples/re-authenticate-users.md)
     * [Migrating From Fortmatic](client-sdk/browser-js/examples/migrating-from-fortmatic.md)
-* [📱 React Native](client-sdk/react-native/README.md)
+* [React Native](client-sdk/react-native/README.md)
   * [🚀 Get Started](client-sdk/react-native/get-started.md)
-* [📱iOS](client-sdk/ios/README.md)
+* [iOS](client-sdk/ios/README.md)
   * [🚀 Get Started](client-sdk/ios/get-started.md)
   * [🗄 SDK](client-sdk/ios/sdk/README.md)
     * [Constructor](client-sdk/ios/sdk/constructor.md)
@@ -50,7 +50,7 @@
       * [logout](client-sdk/ios/sdk/user-module/logout.md)
     * [Auth Module](client-sdk/ios/sdk/auth-module/README.md)
       * [loginWithMagicLink](client-sdk/ios/sdk/auth-module/loginwithmagiclink.md)
-* [📱Android](client-sdk/android/README.md)
+* [Android](client-sdk/android/README.md)
   * [🚀 Get Started](client-sdk/android/get-started.md)
   * [🗄 SDK](client-sdk/android/sdk/README.md)
     * [Constructor](client-sdk/android/sdk/constructor1.md)
@@ -63,11 +63,11 @@
       * [logout](client-sdk/android/sdk/user-module/logout.md)
     * [Auth module](client-sdk/android/sdk/auth-module/README.md)
       * [loginWithMagicLink](client-sdk/android/sdk/auth-module/loginwithmagiclink.md)
-* [🔜 Coming Soon](client-sdk/coming-soon.md)
+* [Coming Soon](client-sdk/coming-soon.md)
 
-## Admin SDK Reference <a id="admin-sdk"></a>
+## 📡 Admin SDK Reference <a id="admin-sdk"></a>
 
-* [🌐 Node.js](admin-sdk/node-js/README.md)
+* [Node.js](admin-sdk/node-js/README.md)
   * [🚀 Get Started](admin-sdk/node-js/get-started.md)
   * [🗄 SDK](admin-sdk/node-js/sdk/README.md)
     * [Constructor](admin-sdk/node-js/sdk/constructor.md)
@@ -88,7 +88,7 @@
     * [Errors & Warnings](admin-sdk/node-js/sdk/errors-and-warnings.md)
   * [🧩 Examples](admin-sdk/node-js/examples/README.md)
     * [Log Out a User's Magic Session](admin-sdk/node-js/examples/log-out-a-users-magic-session.md)
-* [🐍 Python](admin-sdk/python/README.md)
+* [Python](admin-sdk/python/README.md)
   * [🚀 Get Started](admin-sdk/python/python-get-started.md)
   * [🗄 SDK](admin-sdk/python/python-sdk/README.md)
     * [Constructor](admin-sdk/python/python-sdk/python-constructor.md)
@@ -110,11 +110,11 @@
     * [User Signup](admin-sdk/python/python-examples/user-signup.md)
     * [User Login](admin-sdk/python/python-examples/user-login.md)
     * [User Logout](admin-sdk/python/python-examples/user-logout.md)
-* [🔜 Coming Soon](admin-sdk/coming-soon.md)
+* [Coming Soon](admin-sdk/coming-soon.md)
 
-## Advanced
+## ⛓ Advanced
 
-* [⛓ Ethereum](advanced/ethereum/README.md)
+* [Ethereum](advanced/ethereum/README.md)
   * [JavaScript](advanced/ethereum/javascript/README.md)
     * [🚀 Get Started](advanced/ethereum/javascript/get-started.md)
     * [👤 Get User Info](advanced/ethereum/javascript/get-user-info.md)
@@ -133,17 +133,17 @@
     * [💸 Send Transaction](advanced/ethereum/android/send-transaction.md)
     * [✏️ Sign Message](advanced/ethereum/android/sign-message.md)
     * [📜 Smart Contract](advanced/ethereum/android/smart-contract.md)
-* [⛓ Tezos](advanced/tezos/README.md)
+* [Tezos](advanced/tezos/README.md)
   * [🚀 Get Started](advanced/tezos/get-started.md)
   * [👤 Get User Info](advanced/tezos/get-user-info.md)
   * [💸 Send Transaction](advanced/tezos/send-transaction.md)
   * [📜 Smart Contract](advanced/tezos/smart-contract.md)
-* [⛓ ICON](advanced/icon/README.md)
+* [ICON](advanced/icon/README.md)
   * [🚀 Get Started](advanced/icon/get-started.md)
   * [👤 Get User Info](advanced/icon/get-user-info.md)
   * [💸 Send Transaction](advanced/icon/send-transaction.md)
   * [📜 Smart Contract](advanced/icon/smart-contract.md)
-* [⛓ Zilliqa](advanced/zilliqa/README.md)
+* [Zilliqa](advanced/zilliqa/README.md)
   * [🚀 Get Started](advanced/zilliqa/get-started.md)
   * [👤 Get User Wallet](advanced/zilliqa/get-user-wallet.md)
   * [💸 Send Transaction](advanced/zilliqa/send-transaction.md)

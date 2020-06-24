@@ -1,2 +1,2 @@
-# ⛓ Zilliqa
+# Zilliqa
 
