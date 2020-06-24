@@ -15,7 +15,7 @@
 
 ## 🌐 Client SDK Reference <a id="client-sdk"></a>
 
-* [Browser JS](client-sdk/browser-js/README.md)
+* [Browser JavaScript](client-sdk/browser-js/README.md)
   * [🚀 Get Started](client-sdk/browser-js/get-started.md)
   * [🗄 SDK](client-sdk/browser-js/sdk/README.md)
     * [Constructor](client-sdk/browser-js/sdk/constructor.md)
@@ -35,7 +35,7 @@
   * [🧩 Examples](client-sdk/browser-js/examples/README.md)
     * [Re-authenticate Users](client-sdk/browser-js/examples/re-authenticate-users.md)
     * [Migrating From Fortmatic](client-sdk/browser-js/examples/migrating-from-fortmatic.md)
-* [React Native](client-sdk/react-native/README.md)
+* [React Native JavaScript](client-sdk/react-native/README.md)
   * [🚀 Get Started](client-sdk/react-native/get-started.md)
 * [iOS](client-sdk/ios/README.md)
   * [🚀 Get Started](client-sdk/ios/get-started.md)

@@ -1,4 +1,4 @@
-# Browser JS
+# Browser JavaScript
 
 ## 🚀 Welcome to the Magic Browser JS SDK
 
